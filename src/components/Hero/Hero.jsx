@@ -23,7 +23,7 @@ function Header() {
                         <span className="secondaryText">Oubliez toutes les difficultés pour vous trouver une résidence</span>
                     </div>
                     <div className="flexCenter search-bar">
-                        <HiLocationMarker color="var(--blue)" size={25}/>
+                        <HiLocationMarker color="#dd5c2a" size={25}/>
                         <input type="text"/>
                         <button className="button">Search</button>
                     </div>
