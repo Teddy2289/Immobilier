@@ -1,0 +1,8 @@
+.App{
+    position: relative;
+
+}
+.App>:nth-child(1){
+    background: linear-gradient(to bottom, #3c3c40, #4e5153);
+    position: relative;
+}
