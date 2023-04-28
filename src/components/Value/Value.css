@@ -13,16 +13,16 @@
 }
 .accordionItem{
     background: white;
-    border: 0.8rem rgb(128,128,128,0.143)!important;
+    border: 0.8px solid rgb(128,128,128,0.143);
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 20px;
 }
-.accordionItem .expanded{
+.expanded{
     box-shadow: var(--shadow);
     border-radius: 5px;
 }
-.accordioButton{
+.accordioButton {
     background: white;
     padding: 1rem;
     width: 100%;
