@@ -1,5 +1,6 @@
+import React from "react";
 import './Header.css';
-import logo from '../../../public/immobilier.png';
+import logo from '../../assets/immobilier.png';
 
 function Header() {
     return (

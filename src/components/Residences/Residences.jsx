@@ -1,18 +1,22 @@
+import React from "react";
 import {Swiper, useSwiper, SwiperSlide} from "swiper/react";
 import 'swiper/css'
 import data from '../../../src/utils/slider.json'
-import {color} from "framer-motion";
 import './Residences.css'
+import {sliderSettings} from "../../utils/common";
+import SliderButton from "./SliderButton";
 
 function Residences() {
     return (
         <section className="r-wrapper">
             <div className="r-container paddings innerWidth">
-                <div className="r-head flexColStart">
+                <div className="r-head  flexColCenter">
                     <span className="orangeText">Meilleur choix</span>
                     <span className="primaryText">Résidence populaire</span>
                 </div>
-                <Swiper>
+
+                <Swiper {...sliderSettings}>
+                    <SliderButton/>
                     {
                         data.map((card, i) => (
                             <SwiperSlide key={i}>
@@ -32,6 +36,7 @@ function Residences() {
                         ))
                     }
                 </Swiper>
+
             </div>
         </section>
     );

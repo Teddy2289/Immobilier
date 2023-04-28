@@ -71,6 +71,10 @@ a {
     align-items: flex-end;
 }
 
+.textCenter{
+    text-align: center;
+}
+
 .primaryText {
     color: #1f3e72;
     font-weight: bold;
