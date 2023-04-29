@@ -1,0 +1,54 @@
+.f-wrapper {
+    background: #3c3c40;
+    position: relative;
+    height: 66vh;
+}
+
+.f-containner {
+    justify-content: space-between;
+
+}
+
+.custom-shape-divider-top-1682789419 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.f-left {
+    margin-top: 65px;
+}
+
+.f-right {
+    margin-top: 115px;
+}
+
+.f-right .primaryText {
+    color: white;
+    font-weight: 600;
+}
+
+.custom-shape-divider-top-1682789419 svg {
+    position: relative;
+    display: block;
+    width: calc(104% + 1.3px);
+    height: 122px;
+}
+
+.custom-shape-divider-top-1682789419 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.f-menu {
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+    flex-direction: column;
+}
+.f-menu .primaryText{
+    font-size: 1rem;
+    color: #a46011;
+}

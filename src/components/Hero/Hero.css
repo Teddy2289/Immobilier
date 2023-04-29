@@ -1,7 +1,8 @@
 .hero-wrapper{
     color: white;
     position: relative;
-
+    margin-bottom: 2rem;
+    height: 100vh;
 }
 
 .hero-container{
@@ -70,3 +71,23 @@
 color: #ff922d;
 }
 
+.custom-shape-divider-bottom-1679477730 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1679477730 svg {
+    position: relative;
+    display: block;
+    width: calc(130% + 1.3px);
+    height: 249px;
+}
+
+.custom-shape-divider-bottom-1679477730 .shape-fill {
+    fill: #ffffff;
+}
